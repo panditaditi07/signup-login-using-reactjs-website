@@ -1,0 +1,340 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.banner-image {
+  margin: 50px auto;
+  width: 500px;
+  height: 500px;
+}
+.intro-card {
+  border-radius: 10px;
+  margin: 50px;
+  width: 450px;
+  height: 500px;
+  box-shadow: 5px 10px 8px 15px rgb(206, 204, 204);
+}
+.banner-heading {
+  margin: 30px auto;
+  text-align: center;
+  color: rgb(59, 48, 88);
+}
+.welcome-image {
+  margin: 10px;
+  width: 425px;
+  height: 200px;
+}
+.signup-card {
+  width: 350px;
+  height: 50px;
+  margin: 30px;
+  margin-left: 50px;
+  border: 1px solid rgb(228, 60, 18);
+  text-align: center;
+  background-color: rgb(236, 72, 31);
+  border-radius: 30px;
+  cursor: pointer;
+}
+.signup-link {
+  text-align: center;
+  margin: 10px;
+}
+.login-card {
+  border: 1px solid blue;
+  width: 350px;
+  height: 50px;
+  margin-left: 50px;
+  background-color: blue;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.login-link {
+  text-align: center;
+  margin: 10px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 1000px) {
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro-card {
+    border-radius: 10px;
+    margin: 50px;
+    width: 450px;
+    height: 500px;
+  }
+}
+@media (max-width: 530px) {
+  .banner-image {
+    width: 450px;
+    height: 450px;
+  }
+}
+@media (max-width: 490px) {
+  .banner-image {
+    width: 400px;
+    height: 400px;
+  }
+  .intro-card {
+    width: 420px;
+    height: 450px;
+  }
+  .welcome-image {
+    margin: 10px;
+    width: 400px;
+    height: 170px;
+  }
+  .login-card {
+    width: 320px;
+    height: 40px;
+    margin-left: 50px;
+  }
+  .signup-card {
+    width: 320px;
+    height: 40px;
+  }
+}
+@media (max-width: 430px) {
+  .banner-image {
+    width: 380px;
+    height: 380px;
+  }
+  .intro-card {
+    width: 390px;
+    height: 420px;
+  }
+  .welcome-image {
+    margin: 10px;
+    width: 370px;
+    height: 150px;
+  }
+  .login-card {
+    width: 300px;
+    height: 35px;
+    margin-left: 50px;
+  }
+  .signup-card {
+    width: 300px;
+    height: 35px;
+  }
+  .banner-heading {
+    font-size: 25px;
+  }
+}
+@media (max-width: 400px) {
+  .banner-image {
+    width: 370px;
+    height: 370px;
+  }
+  .intro-card {
+    width: 370px;
+    height: 400px;
+  }
+  .welcome-image {
+    margin: 10px;
+    width: 355px;
+    height: 130px;
+  }
+  .login-card {
+    width: 290px;
+    height: 30px;
+    margin-left: 50px;
+  }
+  .signup-card {
+    width: 290px;
+    height: 30px;
+  }
+  .banner-heading {
+    font-size: 23px;
+  }
+  .signup-link {
+    margin: 5px;
+  }
+  .login-link {
+    margin: 5px;
+  }
+}
+@media (max-width: 380px) {
+  .banner-image {
+    width: 330px;
+    height: 330px;
+  }
+  .intro-card {
+    width: 320px;
+    height: 355px;
+  }
+  .welcome-image {
+    margin: 10px;
+    width: 300px;
+    height: 120px;
+  }
+  .login-card {
+    width: 260px;
+    height: 25px;
+    margin-left: 35px;
+  }
+  .signup-card {
+    width: 260px;
+    height: 25px;
+    margin-left: 35px;
+  }
+  .banner-heading {
+    font-size: 20px;
+  }
+  .signup-link {
+    margin: 4px;
+  }
+  .login-link {
+    margin: 4px;
+  }
+}
+@media (max-width: 340px) {
+  .banner-image {
+    width: 300px;
+    height: 300px;
+  }
+  .intro-card {
+    width: 290px;
+    height: 330px;
+  }
+  .welcome-image {
+    margin: 10px;
+    width: 280px;
+    height: 110px;
+  }
+  .login-card {
+    width: 240px;
+    height: 22px;
+    margin-left: 32px;
+  }
+  .signup-card {
+    width: 240px;
+    height: 22px;
+    margin-left: 32px;
+  }
+  .banner-heading {
+    font-size: 18px;
+  }
+  .signup-link {
+    margin: 4px;
+  }
+  .login-link {
+    margin: 4px;
+  }
+}
+@media (max-width: 300px) {
+  .banner-image {
+    width: 280px;
+    height: 280px;
+  }
+  .intro-card {
+    width: 270px;
+    height: 310px;
+  }
+  .welcome-image {
+    margin: 10px;
+    width: 260px;
+    height: 100px;
+  }
+  .login-card {
+    width: 220px;
+    height: 20px;
+    margin-left: 30px;
+  }
+  .signup-card {
+    width: 220px;
+    height: 20px;
+    margin-left: 30px;
+  }
+  .banner-heading {
+    font-size: 16px;
+  }
+  .signup-link {
+    margin: 3px;
+  }
+  .login-link {
+    margin: 3px;
+  }
+  .link {
+    font-size: 20px;
+  }
+}
+@media (max-width: 280px) {
+  .banner-image {
+    width: 250px;
+    height: 250px;
+  }
+  .intro-card {
+    width: 240px;
+    height: 280px;
+  }
+  .welcome-image {
+    margin: 10px;
+    width: 240px;
+    height: 90px;
+  }
+  .login-card {
+    width: 200px;
+    height: 20px;
+    margin-left: 27px;
+  }
+  .signup-card {
+    width: 200px;
+    height: 20px;
+    margin-left: 27px;
+  }
+  .banner-heading {
+    font-size: 14px;
+  }
+  .signup-link {
+    margin: 2px;
+  }
+  .login-link {
+    margin: 2px;
+  }
+  .link {
+    font-size: 10px;
+  }
+}
+@media (max-width: 260px) {
+  .banner-image {
+    width: 220px;
+    height: 220px;
+  }
+  .intro-card {
+    width: 230px;
+    height: 270px;
+  }
+  .welcome-image {
+    margin: 10px;
+    width: 90px;
+    height: 80px;
+  }
+  .login-card {
+    width: 150px;
+    height: 18px;
+    margin-left: 27px;
+  }
+  .signup-card {
+    width: 180px;
+    height: 18px;
+    margin-left: 27px;
+  }
+  .banner-heading {
+    font-size: 14px;
+  }
+  .signup-link {
+    margin: 2px;
+  }
+  .login-link {
+    margin: 2px;
+  }
+  .link {
+    font-size: 10px;
+  }
+}

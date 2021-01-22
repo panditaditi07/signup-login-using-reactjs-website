@@ -1,0 +1,70 @@
+footer {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(59, 48, 88);
+}
+footer p {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+.facebook-icon,
+.twitter-icon,
+.linkedin-icon {
+  font-size: 30px;
+  background-color: rgb(59, 48, 88);
+  color: white;
+  margin: 15px;
+}
+.footer-heading {
+  padding: 10px;
+  background-color: rgb(59, 48, 88);
+}
+span h1 {
+  color: white;
+}
+.icons {
+  background-color: rgb(59, 48, 88);
+}
+.copyright-heading {
+  background-color: rgb(59, 48, 88);
+  font-size: 25px;
+}
+.copyright {
+  background-color: rgb(59, 48, 88);
+}
+
+@media (max-width: 550px) {
+  .copyright-heading {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 200px) {
+  .facebook-icon,
+  .twitter-icon,
+  .linkedin-icon {
+    font-size: 20px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 130px) {
+  .copyright-heading {
+    font-size: 10vw;
+  }
+  .copyright {
+    font-size: 10vw;
+  }
+  .facebook-icon,
+  .twitter-icon,
+  .linkedin-icon {
+    font-size: 15px;
+    margin: 5px;
+  }
+}
